@@ -1,14 +1,16 @@
 # Projects Description
 
 We are currently working on two different projects:
-* P1: Living Systematic Review on Psychedelic Treatments for Psychiatric Disorders: This is small project focusing on a niche area of research. It is a proof of concept of the type of web app and pipeline that we would like to use on a broader scale in future, as in the project below:
-* P2: Living Systematic Review on (Drug) Treatments for Neuropsychiatric Disorders: This project aims to provide neuroscientists with streamlined access to comprehensive preclinical and clinical research, enabling informed experimental planning and in-depth evaluation of the neuroscience therapy development pipeline.
+
+(P1) Living Systematic Review on Psychedelic Treatments for Psychiatric Disorders: This is small project focusing on a niche area of research. It is a proof of concept of the type of web app and pipeline that we would like to use on a broader scale in future, as in the project below:
+
+(P2) Living Systematic Review on (Drug) Treatments for Neuropsychiatric Disorders: This project aims to provide neuroscientists with streamlined access to comprehensive preclinical and clinical research, enabling informed experimental planning and in-depth evaluation of the neuroscience therapy development pipeline.
 
 
 ## Project components
-Our final projects should have the following components. In bracketch is the projects to which this component applies to:
-* **Periodic fetching of newest publication abstracts** (P1,2): We will periodically (e.g. every week) fetch the abstracts and metadataof the newest publications. For now our target database is Pubmed, but more could be included inthe future.
-* **Periodic fetching of newest publications full-text** (P2): We will periodically (e.g. every week) fetch available full-texts of the newest publications.
+Our final projects should have the following components. In brackets is the projects to which this component applies to:
+* **Periodic fetching of newest publication abstracts** (P1,2): We will periodically (e.g. every week) fetch the abstracts and metadataof the newest publications. For now our target database is Pubmed, but more data sources could be included in the future.
+* **Periodic fetching of newest publication full-text** (P2): We will periodically (e.g. every week) fetch available full-texts of the newest publications.
 * **Periodic fetching of newest clinical trials** (P2): We will periodically (e.g. every week) fetch the lates clinical trial details from ClinicalTrials.gov.
 * **Relevance Detection** (P1,2): A language model classifies the new publication as relevant/not relevant for the project
 * **Classification and NER** (P1,2): The abstract (+ method section) of the fetched publication are passed through several fine-tuned BERT models for classification and NER
