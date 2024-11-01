@@ -2,9 +2,9 @@
 
 We are currently working on two different projects:
 
-(P1) Living Systematic Review on Psychedelic Treatments for Psychiatric Disorders: This is small project focusing on a niche area of research. It is a proof of concept of the type of web app and pipeline that we would like to use on a broader scale in future, as in the project below:
+(P1) Living Systematic Review on Psychedelic Treatments for Psychiatric Disorders: This is small project focusing on a niche area of research. It is a proof of concept of the type of web app and pipeline that we would like to use on a broader scale in future, as in the project below. Timeline - until March/April 2025.
 
-(P2) Living Systematic Review on (Drug) Treatments for Neuropsychiatric Disorders: This project aims to provide neuroscientists with streamlined access to comprehensive preclinical and clinical research, enabling informed experimental planning and in-depth evaluation of the neuroscience therapy development pipeline.
+(P2) Living Systematic Review on (Drug) Treatments for Neuropsychiatric Disorders: This project aims to provide neuroscientists with streamlined access to comprehensive preclinical and clinical research, enabling informed experimental planning and in-depth evaluation of the neuroscience therapy development pipeline. Timeline - until March/April 2026.
 
 
 ## Project components
@@ -29,10 +29,11 @@ Here is a schematic of what the pipeline would look like for the Psynamic Projec
 * **Frontend**: web app created with [Dash](https://dash.plotly.com/) (by Plotly)
 > a very rough protoype with flat data input (s. `app_dash/data/`, will be replaced with the Postgres database in future) for the PsyNamic project can be found in `app_dash/` in this repo. 
 
-Here are some impressions:
+Here are some impressions for P1:
 ![](/media/screenshot_psynamic1.png)
 ![](/media/screenshot_psynamic2.png)
 
+An example dashboard for P2 developed in Shiny App can be accessed here [NeuroTrialomics](https://sed-stride-lab.shinyapps.io/neurotrialomics-dashboard1/).
   
 
 ## We need infrastructure & support with
