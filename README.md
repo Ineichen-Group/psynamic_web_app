@@ -2,11 +2,12 @@
 
 We are currently working on two different projects:
 * Living Systematic Review on Psychedelic Treatments for Psychiatric Disorders: This is small project focusing on a niche area of research. It is a proof of concept of the type of web app and pipeline that we would like to use on a broader scale in future, as in the project below:
-* Neuroscience # TODO: Simona
+* Living Systematic Review on (Drug) Treatments for Neuropsychiatric Disorders: This project aims to provide neuroscientists with streamlined access to comprehensive preclinical and clinical research, enabling informed experimental planning and in-depth evaluation of the neuroscience therapy development pipeline.
+
 
 ## Project components
 Our final projects should have the following components:
-* **Period fetching of newest publications**: We will periodically (e.g. every week) fetch the newest publications via the Pubmed API
+* **Period fetching of newest publications**: We will periodically (e.g. every week) fetch the newest publications via the Pubmed API.
 * **Relevance Detection**: A language model classifies the new publication as relevant/not relevant for the project
 * **Classification and NER**: The abstract (+ method section) of the fetched publication are passed through several fine-tuned BERT models for classification and NER
 * **Continuously populated database**: The publications, the results of the relevance detection plus the classification and NER results are saved in database
